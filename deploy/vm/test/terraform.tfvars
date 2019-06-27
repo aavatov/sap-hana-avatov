@@ -6,5 +6,5 @@ sshkey_path_public = "/tmp/sshkey.pub"
 az_resource_group = "hana-pipeline-test-single-node"
 sap_sid = "PV1"
 sap_instancenum = "00"
-vm_size = "Standard_M64s"
+vm_size = "Standard_M8-2ms"
 useHana2 = true
