@@ -1,4 +1,4 @@
-az_region = "westus"
+az_region = "westus2"
 vm_user = "azureuser"
 az_domain_name = "singlehana-az-pipeline"
 sshkey_path_private = "/tmp/sshkey"
