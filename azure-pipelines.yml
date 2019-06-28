@@ -19,9 +19,9 @@ jobs:
       ssh-keygen -b 4096 -t rsa -f /tmp/sshkey -q -N ""
       cp deploy/vm/test/terraform.tfvars deploy/vm/modules/single_node_hana
       cd deploy/vm/modules/single_node_hana
+      echo "Terraform apply started."  
       terraform init
       terraform apply -auto-approve -no-color
-      echo "Terraform apply completed."  
     displayName: 'Create single-node HANA'
     env:
       TF_VAR_azure_service_principal_id: $(hana-pipeline-spn-id)
