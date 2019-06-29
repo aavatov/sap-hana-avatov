@@ -48,6 +48,7 @@ jobs:
       ARM_SUBSCRIPTION_ID: $(landscape-subscription)
   - script: |
       echo "Terraform destroy to destroy the deployment"
+      cd deploy/vm/modules/single_node_hana
       terraform destroy -auto-approve -no-color
     displayName: 'Destroy single-node HANA'
     env:
