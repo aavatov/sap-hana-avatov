@@ -17,6 +17,7 @@ jobs:
     persistCredentials: boolean  # set to 'true' to leave the OAuth token in the Git config after the initial fetch
   - script: |
       pip install packaging
+      pip install --ignore-installed pyyaml ansible[azure]
       sudo -H pip install msrest==0.6.0
     displayName: 'Install python tools'
   - script: |
