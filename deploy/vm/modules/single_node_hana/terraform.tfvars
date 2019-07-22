@@ -2,7 +2,7 @@
 az_region = "West Europe"
 
 # Name of resource group to deploy (example: "demo1")
-az_resource_group = "HANADeployment_and_TA3"
+az_resource_group = "HANADeployment-and-TA4"
 
 # Unique domain name for easy VM access (example: "hana-on-azure1")
 az_domain_name = "hana-on-azure1"
