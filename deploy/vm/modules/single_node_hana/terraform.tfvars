@@ -1,5 +1,6 @@
 # Azure region to deploy resource in; please choose the same region as your storage from step 3 (example: "westus2")
-az_region = "West Europe"
+# az_region = "West Europe"
+az_region = "westus2"
 
 # Name of resource group to deploy (example: "demo1")
 az_resource_group = "HANADeploymentandTA5"
