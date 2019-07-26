@@ -26,7 +26,8 @@ resource "azurerm_managed_disk" "disk" {
   count                = length(var.storage_disk_sizes_gb)
   name                 = "${var.machine_name}-disk${count.index}"
   location             = var.az_region
-  storage_account_type = "Premium_LRS"
+  # storage_account_type = "Premium_LRS"
+  storage_account_type = "StandardSSD_LRS"
   resource_group_name  = var.az_resource_group
   disk_size_gb         = var.storage_disk_sizes_gb[count.index]
   create_option        = "Empty"
@@ -55,7 +56,8 @@ resource "azurerm_virtual_machine" "vm" {
     name              = "${var.machine_name}-OsDisk"
     caching           = "ReadWrite"
     create_option     = "FromImage"
-    managed_disk_type = "Premium_LRS"
+    # managed_disk_type = "Premium_LRS"
+    managed_disk_type = "StandardSSD_LRS"
   }
 
   storage_image_reference {
