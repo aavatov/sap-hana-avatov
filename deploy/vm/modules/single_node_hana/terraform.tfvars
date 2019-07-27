@@ -60,10 +60,10 @@ email_shine = "shine@myemailaddress.com"
 useHana2 = false
 
 # Set this flag to true when installing the XSA application server
-install_xsa = false
+install_xsa = true
 
 # Set this flag to true when installing SHINE demo content (requires XSA)
-install_shine = false
+install_shine = true
 
 # Set this flag to true when installing Cockpit (requires XSA)
 install_cockpit = false
