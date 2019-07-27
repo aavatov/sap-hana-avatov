@@ -3,15 +3,15 @@
 az_region = "westus2"
 
 # Name of resource group to deploy (example: "demo1")
-az_resource_group = "HANADeploymentandTA6"
+az_resource_group = "HANADeploymentandTA7"
 
 # Unique domain name for easy VM access (example: "hana-on-azure1")
 az_domain_name = "hana-on-azure1"
 
 # Size of the VM to be deployed (example: "Standard_E8s_v3")
 # For HANA platform edition, a minimum of 32 GB of RAM is recommended
-#vm_size = "Standard_DS4_v2" - found in hand-on lab
-vm_size = "Standard_E8s_v3"
+vm_size = "Standard_DS4_v2"
+#vm_size = "Standard_E8s_v3"
 
 # Path to the public SSH key to be used for authentication (e.g. "~/.ssh/id_rsa.pub")
 sshkey_path_public = "~/.ssh/id_rsa.pub"
