@@ -76,6 +76,3 @@ allow_ips = ["0.0.0.0/0"]
 
 #вот этого не было - давай попробуем!
 windows_bastion = true
-
-bastion_username = "testuser"
-pw_bastion = "Han@4u123"
