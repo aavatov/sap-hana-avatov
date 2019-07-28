@@ -73,3 +73,9 @@ install_webide = false
 
 # Set this to be a list of the ip addresses that should be allowed by the NSG.
 allow_ips = ["0.0.0.0/0"]
+
+#вот этого не было - давай попробуем!
+windows_bastion = true
+
+bastion_username = "testuser"
+pw_bastion = "Han@4u123"
