@@ -96,9 +96,9 @@ resource "azurerm_virtual_machine" "windows_bastion" {
   }
 
   os_profile {
-    computer_name  = local.machine_name
-    admin_username = var.bastion_username
-    admin_password = var.pw_bastion
+    computerName  = local.machine_name
+    adminUsername = var.bastion_username
+    adminPassword = var.pw_bastion
   }
 
   os_profile_secrets {
