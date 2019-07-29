@@ -76,3 +76,5 @@ allow_ips = ["0.0.0.0/0"]
 
 #вот этого не было - давай попробуем!
 windows_bastion = true
+
+pw_bastion_windows = "Han@4u123"
