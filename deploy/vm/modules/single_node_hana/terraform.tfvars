@@ -38,6 +38,8 @@ url_sapcar_windows = "https://sapinstaller.blob.core.windows.net/sapmediastaging
 
 url_hana_studio_windows = "https://sapinstaller.blob.core.windows.net/sapmediastaging/SapBits/SAP_HANA_STUDIO/IMC_STUDIO2_212_2-80000323.SAR"
 
+url_hana_studio_linux = "https://saphanadistr.blob.core.windows.net/sapbits/sap_hana_studio_linux/IMC_STUDIO2_212_5-80000321.SAR?sp=r&st=2019-08-02T19:23:40Z&se=2020-08-03T03:23:40Z&spr=https&sv=2018-03-28&sig=eEQ0HFOWnzuPnSLtoqu5bQZ0LnH8bb%2FE9jrpIk9DXP4%3D&sr=b"
+
 # Password for the OS sapadm user
 pw_os_sapadm = "Han@4u123"
 
