@@ -40,6 +40,10 @@ url_hana_studio_windows = "https://saphanadistro.blob.core.windows.net/sapbits/S
 
 url_hana_studio_linux = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_HANA_STUDIO_LINUX/IMC_STUDIO2_212_5-80000321.SAR"
 
+url_shine_xsa = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_SHINE_XSA/XSACSHINE05_3-70002323.ZIP"
+
+url_cockpit = "https://saphanadistro.blob.core.windows.net/sapbits/HANA_Cockpit_2/SAPHANACOCKPIT07_11-70002299.SAR"
+
 # Password for the OS sapadm user
 pw_os_sapadm = "Han@4u123"
 
@@ -66,10 +70,10 @@ email_shine = "shine@myemailaddress.com"
 useHana2 = false
 
 # Set this flag to true when installing the XSA application server
-install_xsa = false
+install_xsa = true
 
 # Set this flag to true when installing SHINE demo content (requires XSA)
-install_shine = false
+install_shine = true
 
 # Set this flag to true when installing Cockpit (requires XSA)
 install_cockpit = false
