@@ -44,6 +44,16 @@ url_shine_xsa = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_SHINE_X
 
 url_cockpit = "https://saphanadistro.blob.core.windows.net/sapbits/HANA_Cockpit_2/SAPHANACOCKPIT07_11-70002299.SAR"
 
+url_xsa_runtime = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_XS_ADVANCED_RUNTIME/EXTAPPSER00P_87-70001316.SAR"
+
+url_di_core = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_DI_CORE/XSACDEVXDI12_9-70001255.ZIP"
+
+url_sapui5 = "https://saphanadistro.blob.core.windows.net/sapbits/SAPUI5/XSACUI5FESV452P_20-70003351.ZIP"
+
+url_portal_services = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_PORTAL_SERVICES/XSACPORTALSERV02_6-80002098.ZIP"
+
+url_xs_services = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_XS_SERVICES/XSACSERVICES06_16-70002361.ZIP"
+
 # Password for the OS sapadm user
 pw_os_sapadm = "Han@4u123"
 
@@ -89,10 +99,3 @@ windows_bastion = true
 #linux_bastion = true
 
 pw_bastion_windows = "Han@4u123"
-
-#В yml файле по установке SHINE вот такие стоки - нам нужен url_shine_xsa
-
-#- name: Download SHINE Content (XSA)
-#  get_url:
-#    url: "{{ url_shine_xsa }}"
-#    dest: /usr/sap/{{ sap_sid|upper }}/HDB{{ sap_instancenum }}/XSASHINE.ZIP
