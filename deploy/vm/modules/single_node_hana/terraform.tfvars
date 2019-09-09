@@ -32,7 +32,7 @@ sap_instancenum = "00"
 url_sap_sapcar_linux = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_HANA_STUDIO_LINUX/SAPCAR_1014-80000935-LINUX.EXE"
 
 # URL to download HANA DB server package from (see step 6)
-url_sap_hdbserver = "https://sasaphanasn.blob.core.windows.net/sapbits/IMDB_SERVER20_032_0-80002031.SAR?st=2019-01-18T13%3A26%3A30Z&se=2020-01-01T13%3A26%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=6eMNuWNtbiUWd%2BYib2T3CElqa2IMIPLk9JTCV0%2FhRJI%3D"
+url_sap_hdbserver = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_HDBSERVER/IMDB_SERVER20_032_0-80002031.SAR"
 
 url_sapcar_windows = "https://saphanadistro.blob.core.windows.net/sapbits/SAP_HANA_STUDIO/sapcar.exe"
 
@@ -80,10 +80,10 @@ email_shine = "shine@myemailaddress.com"
 useHana2 = false
 
 # Set this flag to true when installing the XSA application server
-install_xsa = true
+install_xsa = false
 
 # Set this flag to true when installing SHINE demo content (requires XSA)
-install_shine = true
+install_shine = false
 
 # Set this flag to true when installing Cockpit (requires XSA)
 install_cockpit = false
