@@ -94,7 +94,7 @@ install_webide = false
 # Set this to be a list of the ip addresses that should be allowed by the NSG.
 allow_ips = ["0.0.0.0/0"]
 
-#вот этого не было - давай попробуем!
+#Set which bastion you would like to install
 windows_bastion = true
 #linux_bastion = true
 
